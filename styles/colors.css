@@ -1,0 +1,9 @@
+:root {
+    /* COLORS */
+    --primary-background-color: #191919;
+    --primary-color: rgba(255, 255, 255, 0.858);
+    --secondary-background-color: #323232;
+    --secondary-color: #191919;
+    --accent-color: orange;
+    --hover-not-current-color: grey;
+}

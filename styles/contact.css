@@ -1,0 +1,51 @@
+:root {
+    /* POSITIONING */
+    --container--padding: 5rem;
+}
+
+
+.main-content {
+    flex: 1 0 75%;
+    flex-direction: column;
+    margin: var(--main-content--margin);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 1em 0;
+}
+
+button{
+    display: inline-block;
+}
+
+.button-container {
+    flex: 1 1 auto;
+}
+
+.button-right--margin {
+    margin: 1em 1em 1em 0.5em;
+}
+
+.send-button--margin {
+    margin: 1em 0.5em 1em 1%;
+}
+
+/* LINK STYLE */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* .main-content {
+    height: 100%;
+} */

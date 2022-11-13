@@ -1,0 +1,136 @@
+:root {
+    --header-footer--height: 100px;
+    --header--padding: 5%;
+    --footer--element--margin: 5px;
+}
+
+
+.header {
+    background-color: var(--primary-background-color);
+    display: flex;
+    flex: 1 0 var(--header-footer--height);
+    flex-wrap: nowrap;
+}
+
+.header-link > h3 {
+    display: inline-block;
+}
+
+.header-link:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.header__title {
+    display: flex;
+    padding-left: var(--header--padding);
+    flex: 1 1 30%;
+    align-items: center;
+}
+
+.title {
+    margin-left: 10px;
+}
+
+.header__navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: var(--header--padding);
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+.menu-item > a {
+    display: flex;
+    padding: 5px 24px;
+    align-items: center;
+}
+
+.title-symbol {
+    color: rgb(67, 73, 188);
+}
+
+.menu-item.current-page {
+    font-weight: bold;
+    /* border-bottom: 1px solid; */
+    text-decoration: underline;
+}
+
+.burger-menu{
+    display: none;
+}
+
+.footer {
+    display: flex;
+    flex: 0 0 auto;
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    height: var(--header-footer--height);
+    padding: 24px;
+}
+
+.footer > h2 {
+    display: inline-block;
+}
+
+.footer--icons {
+    display: flex;
+}
+
+.footer--text {
+    margin: var(--footer--element--margin);
+}
+
+.sm-images {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    margin: var(--footer--element--margin);
+}
+
+.sm-images.instagram {
+    background-image: url(../images/instagram.png);
+}
+
+.sm-images.facebook {
+    background-image: url(../images/facebook.png);
+}
+
+.sm-images.linkedin {
+    background-image: url(../images/linkedin.png);
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+
+    .menu-item.desktop {
+        display: none;
+    }
+
+    .menu-item.mobile {
+        display: inline-block;
+        width: 45px;
+        height: 30px;
+    }
+    
+    
+    
+    .menu-image {
+        width: 100%;
+        height: 100%;
+        /* object-fit: contain; */
+        /* overflow: hidden; */
+    }
+
+}
+
+

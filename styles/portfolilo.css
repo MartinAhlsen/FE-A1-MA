@@ -1,0 +1,82 @@
+:root {
+    /* POSITIONING */
+    --container--padding: 5rem;
+    /* --main-content--width: 30%; */
+    --main-content--margin: 5%;
+}
+
+.main-content {
+    background-color: var(--primary-background-color);
+}
+
+.heading__h1 {
+    margin: 0 var(--main-content--margin);
+}
+
+.heading__p {
+    margin: 2em var(--main-content--margin);
+}
+
+.call-to-action {
+    display: flex;
+    margin: 0 var(--main-content--margin);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.call-to-action__span {
+    display: inline-block;
+    border-bottom: 1px solid;
+    padding-bottom: 3px;
+}
+
+.call-to-action__icon {
+    display: inline-block;
+    height: 40px;
+    width: 76.5px;
+    background-image: url(../images/github-logo-white-700x465-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.grid-container {
+    display: grid;
+    grid-template: repeat(4, 10rem) / repeat(2, 2fr 3fr);
+    margin: 0 var(--main-content--margin) 0 calc(5% - 1.5em);
+    gap: 1em;
+}
+
+/* .grid-item {
+
+} */
+
+.grid-item.grid-item__description {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondary-background-color);
+
+}
+
+.grid-item.grid-item__image {
+    background-color: yellow;
+    color: green;
+    background-image: url(../images/google.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* LINK STYLE */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template: repeat(8, 10rem) / repeat(2, 1fr);
+    }
+}
