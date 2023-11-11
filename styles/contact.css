@@ -1,6 +1,11 @@
 :root {
-    /* POSITIONING */
     --container--padding: 5rem;
+    --main-content--margin: 5%;
+
+}
+
+.heading__h1 {
+    margin: var(--main-content--margin);
 }
 
 .main-content {
