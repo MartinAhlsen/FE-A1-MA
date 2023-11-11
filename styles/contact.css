@@ -9,7 +9,7 @@
 }
 
 .main-content {
-    flex: 1 0 100%;
+    flex: 0 1 100%;
     flex-direction: column;
     margin: var(--main-content--margin);
 }
