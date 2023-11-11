@@ -3,9 +3,8 @@
     --container--padding: 5rem;
 }
 
-
 .main-content {
-    flex: 1 0 75%;
+    flex: 1 0 100%;
     flex-direction: column;
     margin: var(--main-content--margin);
 }
@@ -40,12 +39,7 @@ button{
     margin: 1em 0.5em 1em 1%;
 }
 
-/* LINK STYLE */
 a {
     color: var(--primary-color);
     text-decoration: none;
 }
-
-/* .main-content {
-    height: 100%;
-} */
