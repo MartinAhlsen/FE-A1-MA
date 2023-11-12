@@ -1,80 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home | Martin Ahlsén</title>
-    <link rel="stylesheet" href="../styles/colors.css">
-    <link rel="stylesheet" href="../styles/header-footer.css">
-    <link rel="stylesheet" href="../styles/index.css">
-    <link rel="stylesheet" href="../styles/typography.css">
-    <link rel="stylesheet" href="../styles/standard-format.css">
-</head>
+    <link rel="stylesheet" href="../styles/colors.css" />
+    <link rel="stylesheet" href="../styles/header-footer.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/typography.css" />
+    <link rel="stylesheet" href="../styles/standard-format.css" />
+  </head>
 
-<body class="main">
-    
+  <body class="main">
     <header class="header">
-        <div class="header__title">
-            <a class="header-link" href="./index.html">
-                <h3 class="title-symbol">
-                    &lt;&frasl;&gt;
-                </h3>
-                <h3 class="title">
-                    Martin Ahlsén
-                </h3>
-            </a>
+      <div class="header__title">
+        <a class="header-link" href="./index.html">
+          <h3 class="title-symbol">&lt;&frasl;&gt;</h3>
+          <h3 class="title">Martin Ahlsén</h3>
+        </a>
+      </div>
+      <div class="header__navbar">
+        <div class="menu-item  burger-menu">
+          <img class="menu-image" src="../images/menu.png" alt="burger-menu" />
+          <div class="mobile-menu">
+            <div class="menu-item mobile home current-page">
+              <a href="./index.html">Home</a>
+            </div>
+            <div class="menu-item mobile portfolio">
+              <a href="./portfolio.html">Portfolio</a>
+            </div>
+            <div class="menu-item mobile contact">
+              <a href="./contact.html">Contact</a>
+            </div>
+          </div>
         </div>
-        <div class="header__navbar">
-            <div class="menu-item desktop home current-page">
-                <a href="./index.html">Home</a>
-            </div>
-            <div class="menu-item desktop portfolio">
-                <a href="./portfolio.html">Portfolio</a>
-            </div>
-            <div class="menu-item desktop contact">
-                <a href="./contact.html">Contact</a>
-            </div>
-            <div class="menu-item mobile burger-menu">
-                    <img class="menu-image" src="../images/menu.png" alt="burger-menu">
-            </div>
+        <div class="menu-item desktop home current-page">
+          <a href="./index.html">Home</a>
         </div>
+        <div class="menu-item desktop portfolio">
+          <a href="./portfolio.html">Portfolio</a>
+        </div>
+        <div class="menu-item desktop contact">
+          <a href="./contact.html">Contact</a>
+        </div>
+      </div>
     </header>
 
     <section class="main-content">
-        <div class="container-left">
-            <p class="introduction-short">
-                I'm Martin, a
-                <!-- <br> -->
-                Web Developer
-            </p>
-            <p class="introduction-paragraph">
-                I'm studying Frontend/App-development at Changemaker Educations
-            </p>
+      <div class="container-left">
+        <p class="introduction-short">
+          I'm Martin, a
+          <!-- <br> -->
+          Web Developer
+        </p>
+        <p class="introduction-paragraph">
+          I'm studying Frontend/App-development at Changemaker Educations
+        </p>
+      </div>
+      <div class="container-right">
+        <div class="contact-me">
+          <h3>WORK WITH ME</h3>
+          <p>I like working in projects focusing on websites and web apps.</p>
+          <a class="main-content__link" href="./contact.html"
+            >SEND ME A MESSAGE</a
+          >
         </div>
-        <div class="container-right">
-            <div class="contact-me">
-                <h3>WORK WITH ME</h3>
-                <p>I like working in projects focusing on websites and web apps. </p>
-                <a class="main-content__link" href="./contact.html">SEND ME A MESSAGE</a>
-            </div>
-            <hr>
-            <div class="my-portfolio">
-                <h3>MY WORK</h3>
-                <p>Here you can find some of my finished projects. Pirmarely focused on website layout.</p>
-                <a class="main-content__link" href="./portfolio.html">BROWSE PORTFOLIO</a>
-            </div>
-            <hr>
+        <hr />
+        <div class="my-portfolio">
+          <h3>MY WORK</h3>
+          <p>
+            Here you can find some of my finished projects. Pirmarely focused on
+            website layout.
+          </p>
+          <a class="main-content__link" href="./portfolio.html"
+            >BROWSE PORTFOLIO</a
+          >
         </div>
+        <hr />
+      </div>
     </section>
     <footer class="footer">
-        <span class="footer--text" >FOLLOW ME</span>
-        <div class="footer--icons">
-            <a class="sm-images instagram" href="https://www.instagram.com/ahlsenmartin/"></a>
-            <a class="sm-images facebook" href="https://www.facebook.com/martin.ahlsen"></a>
-            <a class="sm-images linkedin" href="https://www.linkedin.com/in/martin-ahls%C3%A9n-a55131127/"></a>
-        </div>
+      <span class="footer--text">FOLLOW ME</span>
+      <div class="footer--icons">
+        <a
+          class="sm-images instagram"
+          href="https://www.instagram.com/ahlsenmartin/"
+        ></a>
+        <a
+          class="sm-images facebook"
+          href="https://www.facebook.com/martin.ahlsen"
+        ></a>
+        <a
+          class="sm-images linkedin"
+          href="https://www.linkedin.com/in/martin-ahls%C3%A9n-a55131127/"
+        ></a>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
