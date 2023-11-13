@@ -19,10 +19,10 @@
     padding-bottom: 4px;
     border-bottom: 1px solid white;
     white-space: nowrap;
+    transition: ease-in;
 }
 
 .main-content__link:hover {
-    transition: ease-in;
 }
 
 .container-left {
@@ -37,7 +37,7 @@
 .container-right {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    flex: 1 0 auto;
     padding: var(--main-content--padding);
     margin-right: var(--main-content--margin);
     width: var(--main-content--width);
@@ -60,18 +60,21 @@ a {
         background-image: none;
         align-items: center;
         justify-content: center;
+        height: unset;
     }
 
     .container-left {
         margin: auto;
         width: auto;
         height: auto;
+        max-width: unset;
     }
 
     .container-right {
         margin: auto;
         width: auto;
         height: auto;
+        max-width: unset;
     }
     .introduction-short {
         margin: auto;
