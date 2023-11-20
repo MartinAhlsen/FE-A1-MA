@@ -10,7 +10,6 @@
     display: flex;
     flex: 1 0 var(--header-footer--height);
     flex-wrap: nowrap;
-    /* overflow: hidden; */
 }
 
 .header-link>h3 {
