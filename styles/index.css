@@ -22,9 +22,6 @@
     transition: ease-in;
 }
 
-.main-content__link:hover {
-}
-
 .container-left {
     display: flex;
     flex-direction: column;
@@ -76,11 +73,13 @@ a {
         height: auto;
         max-width: unset;
     }
+
     .introduction-short {
         margin: auto;
         width: auto;
         height: auto;
     }
+
     .introduction-paragraph {
         margin: auto;
         width: auto;

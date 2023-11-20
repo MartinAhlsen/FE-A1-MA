@@ -10,8 +10,7 @@
     display: flex;
     flex: 1 0 var(--header-footer--height);
     flex-wrap: nowrap;
-    overflow: hidden;
-
+    /* overflow: hidden; */
 }
 
 .header-link>h3 {
@@ -137,12 +136,13 @@
         margin: 0;
         text-align: center;
         background-color: var(--primary-background-color);
-        right: -100%;
+        left: -100%;
         top: 100%;
         transition: all .75s ease-in-out;
     }
-        .menu-image:hover + .mobile-menu {
-            right: 0;
+
+    .menu-image:hover+.mobile-menu {
+        left: 0;
     }
 
     .burger-menu {
